@@ -14,7 +14,7 @@ function recevoirTemp(ville) {
     const url =
         "https://api.openweathermap.org/data/2.5/weather?q=" +
         ville +
-        "&appid=b241ccbe8a3c75bbfbbbff7720a1150a&units=metric";
+        "&appid="+yourAPIId+"=metric";
 
     let requete = new XMLHttpRequest(); // Créer un objet
     requete.open("GET", url);
